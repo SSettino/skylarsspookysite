@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: aliceblue;
+    text-align: center;
+    font-size: 28px;
+    background-image: url('sabina-music-rich-OJy0JHnoUZQ-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header, nav {
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px; 
+    color: #FF7518; /* "Pumpkin" from https://rgbcolorcode.com/color/pumpkin */
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+#holding-pumpkin {
+    margin: 0px;
+    float: left;
+}
+
+p {
+    font-size: 28px;
+    color: aliceblue;
+    padding: 0px;
+}
+
+main.borderandbackground {
+    background-color: darkblue;
+    border: 5px solid aliceblue;
+}
+
+p.borderandbackground {
+    background-color: darkblue;
+    border: 5px solid aliceblue;
+    
+}
+
+ul {
+    padding: 10px;
+}
+
+a {
+    color: #ff79c6; /* "Pink" from https://en.wikipedia.org/wiki/Dracula_(color_scheme)*/
+    background-color: black;
+}
+
+nav ul {   
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex; /* The outer container can't change the text size */
+    background-color: #698362;
+    border-width: 0px;
+    justify-content: center;
+  }
+
+ul {
+    list-style-type: none;
+}
+
+nav li a {
+    background-color: #698362;
+    color:aqua;
+    text-decoration: none;
+    padding: 0px 14px;
+    font-family: cursive;
+}
+
+.grid-container {
+    display: grid;
+    gap: 0px 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+    grid-column: 2;
+}
+
+.grid-item-1 {
+    grid-row: 1 / -1;
+}
+
+.flex-container-my-pets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
